@@ -1,0 +1,18 @@
+const initialState = {
+ lots: 1 //integer,
+ positionType: “Buy” or "Sell" 
+ optionType: "call" or “put”
+ ExpiryType: “weekly” or “monthly”
+ selectStrikeCriteria: “strikeType” or “premimumRange”
+ simpleMomentum: {
+	type:”pointsUp” or “pointsDown”
+	Value: integer
+      }
+trailSL:{
+	Type: ”points” or percentage”
+	Value:{
+		instrumentMove: integer
+		stopLossMove: integer
+	    }
+     };
+}

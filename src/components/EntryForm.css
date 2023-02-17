@@ -1,0 +1,27 @@
+.entryform__container{
+    /* width:80vw; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgb(255, 237, 237);
+    height:auto;
+    min-height: 10vh;
+}
+.button__container{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.mainbutton{
+    border:none;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 20px;;
+    padding:10px 15px;
+    background-color: rgb(255, 255, 255);
+}
+.mainbutton:hover{
+    background-color: rgb(136, 136, 251);
+}
