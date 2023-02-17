@@ -3,16 +3,22 @@
         width:90%;
         margin:auto;
         min-height: 20vh;
+        margin-bottom: 30px;
 }
 .leg_top_subcontainer{
     display: flex;
     flex-direction: row;
+    gap:50px;
+    justify-content: center;
+     padding-top: 40px;
 }
 .leg_bottom_subcontainer{
     display: flex;
     flex-direction: row;
     gap:30px;
-    margin-top: 50px;;
+    margin-top: 30px;
+    /* align-content: center; */
+    justify-content: center;
 }
 .counter{
     padding:10px 25px;
